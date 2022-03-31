@@ -103,7 +103,7 @@
 <?php
 try
 {
-    $db = new PDO('mysql:host=localhost;dbname=the_top_rando;charset=utf8', 'root', '');
+    $db = new PDO('mysql://edjyr9smrzi66g69:j7gci9ymb0y39ei4@spryrr1myu6oalwl.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/smr1ypys5eg9rlj6', 'edjyr9smrzi66g69', 'j7gci9ymb0y39ei4');
 }
 catch(Exception $e)
 {
